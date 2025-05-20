@@ -1,11 +1,11 @@
 # Single-Page CV
 
-This project is a single-page HTML Curriculum Vitae (CV) designed to showcase your skills, projects, and education in a clean, modern format. The CV is fully responsive and easy to customize for your own needs.
+This project is a single-page HTML Curriculum Vitae (CV) designed to showcase my skills, projects, and education in a clean, modern format. The CV is fully responsive and easy to customize for your own needs.
 
 ## How to Use
 
 1. Clone or download this repository.
-2. Open `cv.html` in your web browser to view your CV.
+2. Open `cv.html` in your web browser to view my CV.
 3. Edit `cv.html` to update your personal information, skills, projects, and education.
 
 ## Project Inspiration
