@@ -17,30 +17,30 @@
       border: 6px solid #222;
       padding: 40px 40px 30px 40px;
       box-sizing: border-box;
-      min-height: 90vh;
+      min-height: auto;
     }
     .cv-header {
       border-bottom: 3px solid #222;
-      margin-bottom: 30px;
+      margin-bottom: 20px;
       padding-bottom: 10px;
     }
     .cv-title {
       font-size: 2.2em;
-      margin: 0 0 8px 0;
+      margin: 0 0 6px 0;
       font-weight: 500;
     }
     .cv-role {
       color: #2ecc40;
       font-size: 1.1em;
-      margin-bottom: 18px;
+      margin-bottom: 15px;
       font-weight: 500;
     }
     .cv-contact {
-      margin-bottom: 18px;
-      line-height: 1.5;
+      margin-bottom: 15px;
+      line-height: 1.4;
     }
     .cv-section {
-      margin-bottom: 28px;
+      margin-bottom: 20px;
     }
     .cv-section-title {
       color: #2ecc40;
@@ -104,36 +104,45 @@
     </div>
 
     <div class="cv-section">
-      <div class="cv-section-title">Education</div>
-      <div>
-        <span class="cv-job-title">Birla Institute of Technology and Science (BITS) Pilani – Online Learning</span><br>
-        B.Sc in Computer Science<br>
-        Dates: January, 2025 – Present
-        <ul class="cv-list">
-          <li>Coursework includes: Core Computer Science Courses,Mathematics & Logic, Data Science & Analytics,Software & Application Development,Specialized & Advanced Topics</li>
-          <li>Completed hands-on projects in AI, real estate price prediction, and COVID-19 detection</li>
-          <li>Actively pursuing certifications and practical applications of computer science skills</li>
-        </ul>
-      </div>
-      <br>
-      <div>
-        <span class="cv-job-title">Higher Secondary Education – India</span><br>
-        Science Stream (PCM: Physics, Chemistry, Mathematics)<br>
-        Dates: March, 2023 – March, 2025
-        <ul class="cv-list">
-          <li>Built a strong foundation in analytical and problem-solving skills</li>
-          <li>Participated in academic projects and coursework relevant to STEM fields</li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="cv-section">
       <div class="cv-section-title">Academic Projects & Achievements</div>
       <ul class="cv-list">
-        <li>Completed a research project on AI models for clothing segmentation and outfit recommendations (Python, deep learning frameworks, etc.)</li>
-        <li>Worked on a real-world dataset to predict real estate prices using Deep Learning</li>
-        <li>Developed a machine learning model to detect COVID-19 from chest X-rays using PyTorch</li>
-        <li>Built and deployed a sentiment analysis tool using BERT</li>
+        <li>
+          <strong>Hand-Tracked Ping Pong Game Using Computer Vision</strong>
+          <ul>
+            <li>Developed a real-time ping pong game where the paddle is controlled using hand movements tracked via webcam.</li>
+            <li>Used OpenCV and Mediapipe to detect hand landmarks and extract coordinates for paddle control.</li>
+            <li>Implemented collision detection, ball physics, and scoring system using Python and Pygame.</li>
+            <li>Explored human-computer interaction concepts and gesture-based game design.</li>
+          </ul>
+        </li>
+        <li>
+          <strong>Smart To-Do List Generator from Google Calendar</strong>
+          <ul>
+            <li>Built a tool that integrates with Google Calendar API to fetch upcoming events and automatically generate personalized, actionable to-do lists.</li>
+            <li>Parsed event titles and descriptions using NLP to extract task intents and break them down into subtasks.</li>
+            <li>Used scheduling logic to assign to-do items realistic deadlines based on event time and task complexity.</li>
+            <li>Deployed using Python and Google APIs, with optional web interface for editing tasks.</li>
+          </ul>
+        </li>
+        <li>
+          <strong>Restricted Zone Intrusion Detection System</strong>
+          <ul>
+            <li>Built a real-time security system using computer vision to detect human presence in restricted zones.</li>
+            <li>Utilized YOLOv5 (Mediapipe) to detect humans in video frames.</li>
+            <li>Triggered automatic actions (recording short video clips and capturing images) upon unauthorized entry.</li>
+            <li>Integrated with OpenCV for video stream processing and image annotation; optimized for low-latency performance.</li>
+          </ul>
+        </li>
+        <li>
+          <strong>AI Agent & Multi-Agent System Development</strong>
+          <ul>
+            <li>Proficient in building autonomous agents and multi-agent systems using frameworks like LangChain and crewai.</li>
+            <li>Designed agents with tool-usage capabilities and prompt chaining logic.</li>
+            <li>Implemented reasoning loops (ReAct) for planning and execution of complex tasks.</li>
+            <li>Explored multi-agent collaboration and communication via memory-sharing and task delegation.</li>
+            <li>Used tools such as APIs for external tool integration.</li>
+          </ul>
+        </li>
       </ul>
     </div>
 
@@ -160,6 +169,30 @@
         LinkedIn: thanmai-aadimulam
       </a>
       <!-- Add your GitHub or other links here if you want -->
+    </div>
+
+    <div class="cv-section">
+      <div class="cv-section-title">Education</div>
+      <div>
+        <span class="cv-job-title">Birla Institute of Technology and Science (BITS) Pilani – Online Learning</span><br>
+        B.Sc in Computer Science<br>
+        Dates: January, 2025 – Present
+        <ul class="cv-list">
+          <li>Coursework includes: Core Computer Science Courses,Mathematics & Logic, Data Science & Analytics,Software & Application Development,Specialized & Advanced Topics</li>
+          <li>Completed hands-on projects in AI, real estate price prediction, and COVID-19 detection</li>
+          <li>Actively pursuing certifications and practical applications of computer science skills</li>
+        </ul>
+      </div>
+      <br>
+      <div>
+        <span class="cv-job-title">Higher Secondary Education – India</span><br>
+        Science Stream (PCM: Physics, Chemistry, Mathematics)<br>
+        Dates: March, 2023 – March, 2025
+        <ul class="cv-list">
+          <li>Built a strong foundation in analytical and problem-solving skills</li>
+          <li>Participated in academic projects and coursework relevant to STEM fields</li>
+        </ul>
+      </div>
     </div>
   </div>
 </body>
